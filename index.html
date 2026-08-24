@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Clarity | See Your Videos More Clearly</title>
+    <meta name="description" content="Take control of how HTML5 videos look with powerful manual controls and adaptive Auto Mode. Local processing, no tracking.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="Smart Clarity Logo" class="logo-image">
+                <span>Smart Clarity</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it Works</a>
+                <a href="#privacy">Privacy</a>
+            </div>
+            <!-- Update the Edge Add-ons URL when available -->
+            <a href="#" class="btn btn-primary" id="nav-cta">Get Extension</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">See Your Videos <span class="highlight">More Clearly.</span></h1>
+            <p class="hero-subtitle">Take control of how HTML5 videos look with powerful manual controls and adaptive Auto Mode.</p>
+            <div class="hero-ctas">
+                <!-- Update the Edge Add-ons URL when available -->
+                <a href="#" class="btn btn-primary btn-large">Get Smart Clarity</a>
+                <a href="#how-it-works" class="btn btn-secondary btn-large">See How It Works</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="browser-mockup">
+                <div class="browser-header">
+                    <div class="browser-dots"><span></span><span></span><span></span></div>
+                </div>
+                <div class="browser-body">
+                    <div class="video-placeholder">
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="extension-panel glass-panel">
+                        <div class="panel-header">Smart Clarity</div>
+                        <div class="panel-mode-switch">
+                            <span class="active">Manual</span>
+                            <span>Auto</span>
+                        </div>
+                        <div class="panel-controls">
+                            <div class="control-group">
+                                <label>Brightness</label>
+                                <div class="slider-track"><div class="slider-fill" style="width: 60%"></div><div class="slider-thumb" style="left: 60%"></div></div>
+                            </div>
+                            <div class="control-group">
+                                <label>Contrast</label>
+                                <div class="slider-track"><div class="slider-fill" style="width: 75%"></div><div class="slider-thumb" style="left: 75%"></div></div>
+                            </div>
+                            <div class="control-group">
+                                <label>Clarity</label>
+                                <div class="slider-track"><div class="slider-fill" style="width: 80%"></div><div class="slider-thumb" style="left: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Designed for Enhanced Viewing</h2>
+            <div class="features-grid">
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon icon-sliders"></div>
+                    <h3>Manual Control</h3>
+                    <p>Fine-tune brightness, contrast, saturation, clarity, and shadow detail exactly to your liking.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon icon-auto"></div>
+                    <h3>Adaptive Auto Mode</h3>
+                    <p>Automatically adapts visual settings as video scenes change for an optimal viewing experience.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon icon-smooth"></div>
+                    <h3>Smooth Adjustments</h3>
+                    <p>Settings transition gradually during scene changes to avoid sudden, jarring visual shifts.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon icon-presets"></div>
+                    <h3>Built-in Presets</h3>
+                    <p>Quickly apply different viewing preferences without having to manually tweak every slider.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon icon-zap"></div>
+                    <h3>Lightweight</h3>
+                    <p>Designed to work efficiently while watching supported HTML5 videos without slowing you down.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon icon-shield"></div>
+                    <h3>Privacy Focused</h3>
+                    <p>Settings are stored locally. No accounts, no tracking, and absolutely no video uploads.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number">01</div>
+                    <h3>Install Smart Clarity</h3>
+                    <p>Add the extension to your browser in seconds. No account required.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">02</div>
+                    <h3>Open a Video</h3>
+                    <p>Navigate to any supported HTML5 video player on the web.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">03</div>
+                    <h3>Adjust & Enjoy</h3>
+                    <p>Tweak settings manually or enable Auto Mode for adaptive enhancement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <h2 class="section-title">See It In Action</h2>
+            <div class="showcase-container glass-panel">
+                <div class="showcase-nav">
+                    <button class="showcase-btn active" data-target="manual">Manual Mode</button>
+                    <button class="showcase-btn" data-target="auto">Auto Mode</button>
+                </div>
+                <div class="showcase-content active" id="showcase-manual">
+                    <div class="demo-wrapper">
+                        <div class="demo-ui">
+                            <p class="demo-desc">User adjusts sliders to perfect their viewing experience.</p>
+                            <div class="demo-sliders">
+                                <div class="slider-anim"></div>
+                                <div class="slider-anim delayed"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-content" id="showcase-auto">
+                    <div class="demo-wrapper">
+                        <div class="demo-ui auto-mode">
+                            <p class="demo-desc">Smart Clarity adapts settings dynamically as the scene changes.</p>
+                            <div class="radar-anim"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="privacy" class="privacy">
+        <div class="container text-center">
+            <div class="shield-icon"></div>
+            <h2 class="section-title">Your Videos Stay Private.</h2>
+            <p class="privacy-text">Smart Clarity processes visual adjustments locally in your browser. It does not require an account, upload videos, or include tracking or analytics.</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container text-center glass-panel cta-box">
+            <h2>Watch Your Way.</h2>
+            <p>Get more control over how supported videos look in your browser.</p>
+            <!-- Update the Edge Add-ons URL when available -->
+            <a href="#" class="btn btn-primary btn-large mt-4">Get Smart Clarity</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="brand">
+                <div class="logo">
+                    <img src="logo.png" alt="Smart Clarity Logo" class="logo-image">
+                    <span>Smart Clarity</span>
+                </div>
+                <p>by Pratheesh Labs</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How it Works</a>
+                    <span>Version 1.0.0</span>
+                </div>
+                <div class="link-col">
+                    <h4>Company</h4>
+                    <a href="#privacy">Privacy</a>
+                    <a href="mailto:contact@pratheeshlabs.com">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2026 Pratheesh Labs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
